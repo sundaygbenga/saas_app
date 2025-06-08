@@ -13,10 +13,7 @@ const NavItems = () => {
 				<Link
 					href={path}
 					key={label}
-					className={cn(
-						pathname === path &&
-							"text-primary font-semibold border-b-2 border-primary "
-					)}
+					className={cn(pathname === path && "text-primary font-semibold  ")}
 				>
 					{label}
 				</Link>
